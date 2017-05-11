@@ -110,10 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\VGP244 Algorithms and Data Patterns II\MyProjects\Sorting\QuickSort\QuickSort.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="QuickSort\QuickSort.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\VGP244 Algorithms and Data Patterns II\MyProjects\Sorting\QuickSort\TestingQuickSort.cpp" />
+    <ClInclude Include="QuickSort\QuickSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

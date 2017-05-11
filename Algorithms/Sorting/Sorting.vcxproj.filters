@@ -18,13 +18,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\VGP244 Algorithms and Data Patterns II\MyProjects\Sorting\QuickSort\QuickSort.h">
-      <Filter>QuickSort</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\VGP244 Algorithms and Data Patterns II\MyProjects\Sorting\QuickSort\TestingQuickSort.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort\QuickSort.cpp">
       <Filter>QuickSort</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QuickSort\QuickSort.h">
+      <Filter>QuickSort</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -55,20 +55,18 @@ private:
 		{
 			SwapElements(rIndex, pivotIndex);
 		}
+
 		T pivot = mVector.at(rIndex);
-
-		--rIndex;
-
 		int currLeft = lIndex;
-		int currRight = rIndex;
+		int currRight = rIndex - 1;
 
 		while (true)
 		{
-			while (currLeft < rIndex + 1 && mCmp(mVector.at(currLeft), pivot))
+			while (currLeft < rIndex && mCmp(mVector.at(currLeft), pivot))
 			{
 				++currLeft;
 			}
-			while (currRight > lIndex && mCmp(mVector.at(currRight), pivot))
+			while (currRight > lIndex && !mCmp(mVector.at(currRight), pivot))
 			{
 				--currRight;
 			}

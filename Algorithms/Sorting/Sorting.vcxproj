@@ -114,6 +114,7 @@
     <ClCompile Include="QuickSort\QuickSort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MergeSort\MergeSort.h" />
     <ClInclude Include="QuickSort\QuickSort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

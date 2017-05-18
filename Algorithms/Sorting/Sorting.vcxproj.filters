@@ -16,6 +16,9 @@
     <Filter Include="QuickSort">
       <UniqueIdentifier>{b3e40d7a-3bea-4197-957e-ae4baa915b61}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MergeSort">
+      <UniqueIdentifier>{e1fbd51c-3012-48fc-baa5-170cb8b32bb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -28,6 +31,9 @@
   <ItemGroup>
     <ClInclude Include="QuickSort\QuickSort.h">
       <Filter>QuickSort</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort\MergeSort.h">
+      <Filter>MergeSort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
